@@ -81,7 +81,7 @@ nav li{
     width: 100%;
     height: 600px;
     /* background-image: url(./images/map.jpeg); */
-    background: url(./images/map.jpeg) center center;
+    background: url(./map.jpeg) center center;
     background-size: cover;
     display: flex;
 }
@@ -89,7 +89,7 @@ nav li{
 
 /* .container {
     height: 100vh;
-    background: url(./images/map.jpeg) center center;
+    background: url(./map.jpeg) center center;
     background-size: cover;
 } */
 
@@ -115,7 +115,7 @@ nav li{
     height: 560px;
     display: flex;
     background-color: beige;
-    background-image: url(images/kore3.jpeg);
+    background-image: url(./kore3.jpeg);
     background-size: cover;
 }
 
@@ -194,7 +194,7 @@ nav li{
     width: 100%;
     height: 700px;
     display: flex;
-    background-image: url(images/black-ball-point-pen-with-brown-spiral-notebook-733852.jpg);
+    background-image: url(./black-ball-point-pen-with-brown-spiral-notebook-733852.jpg);
     background-size: cover
 }
 
@@ -231,7 +231,7 @@ table{
     flex-direction: column;
     position: relative;
     background-color: beige;
-    background-image: url(images/colorful.jpeg);
+    background-image: url(./colorful.jpeg);
     background-size: cover;
 }
 
