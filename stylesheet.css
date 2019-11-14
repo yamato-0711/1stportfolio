@@ -56,6 +56,7 @@ header nav{
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
+    postion: fixed;
 }
 
 nav a,li{
