@@ -56,53 +56,53 @@ $(function () {
         })
 });
 
-$(function () {
+// $(function () {
 
-    var duration = 400;
+//     var duration = 400;
 
-    $('nav')
-        .on('mouseover', function () {
-            $(this).stop(true).animate({
-                height: '120px',
-                color: 'red'
-            },
-                duration
-            );
-            $('nav>a').stop(true).animate({
-                fontSize: '50px'
-            },
-                duration
-            );
-            $('nav li').stop(true).animate({
-                fontSize: '25px'
-            },
-                duration
-            );
-        })
-        .on('mouseout', function () {
-            $(this).stop(true).animate({
-                height: '80px'
-            },
-                duration
-            );
-            $('nav>a').stop(true).animate({
-                fontSize: '35px'
-            },
-                duration
-            );
-            $('nav li').stop(true).animate({
-                fontSize: '18px'
-            },
-                duration
-            );
-        })
-    $('li')
-        .on('mouseover', function () {
-            $(this).stop(true).animate({
-                color: 'red'
-            });
-        })
-})
+//     $('nav')
+//         .on('mouseover', function () {
+//             $(this).stop(true).animate({
+//                 height: '120px',
+//                 color: 'red'
+//             },
+//                 duration
+//             );
+//             $('nav>a').stop(true).animate({
+//                 fontSize: '50px'
+//             },
+//                 duration
+//             );
+//             $('nav li').stop(true).animate({
+//                 fontSize: '25px'
+//             },
+//                 duration
+//             );
+//         })
+//         .on('mouseout', function () {
+//             $(this).stop(true).animate({
+//                 height: '80px'
+//             },
+//                 duration
+//             );
+//             $('nav>a').stop(true).animate({
+//                 fontSize: '35px'
+//             },
+//                 duration
+//             );
+//             $('nav li').stop(true).animate({
+//                 fontSize: '18px'
+//             },
+//                 duration
+//             );
+//         })
+//     $('li')
+//         .on('mouseover', function () {
+//             $(this).stop(true).animate({
+//                 color: 'red'
+//             });
+//         })
+// })
 
 //pagetopのやつ
 $(document).ready(function () {
