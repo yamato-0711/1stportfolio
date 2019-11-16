@@ -223,7 +223,12 @@ nav li{
     flex-direction: column;
     border: solid 10px rgba(114, 6, 105, 0.856);
 }
-
+.circle h3{
+    font-size: 20px;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.89);
+    width: 50%;
+    margin: 0 auto;
+}
 .circle p{
 	margin: 5px;
 }
