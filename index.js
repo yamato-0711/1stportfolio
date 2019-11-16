@@ -63,7 +63,8 @@ $(function () {
     $('nav')
         .on('mouseover', function () {
             $(this).stop(true).animate({
-                height: '120px'
+                height: '120px',
+                color: 'red'
             },
                 duration
             );
