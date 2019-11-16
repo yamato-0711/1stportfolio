@@ -118,6 +118,7 @@ nav li{
     background-color: beige;
     background-image: url(./kore3.jpeg);
     background-size: cover;
+	z-index:0;
 }
 
 .text-center{
@@ -196,7 +197,8 @@ nav li{
     height: 700px;
     display: flex;
     background-image: url(./black-ball-point-pen-with-brown-spiral-notebook-733852.jpg);
-    background-size: cover
+    background-size: cover;
+	z-index:0;
 }
 
 .selfpr-container{
@@ -234,6 +236,7 @@ table{
     background-color: beige;
     background-image: url(./colorful.jpeg);
     background-size: cover;
+	z-index:0;
 }
 
 .vision-content h3{
