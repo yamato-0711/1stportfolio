@@ -221,6 +221,7 @@ nav li{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    border: solid 10px rgba(114, 6, 105, 0.856);
 }
 
 .circle p{
