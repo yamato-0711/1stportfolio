@@ -175,8 +175,7 @@ nav li{
     margin-right: 20px;
     border-radius: 50%;
     border: solid 0px rgba(114, 6, 105, 0.856);
-    text-align: center;
-    justify-content: center;
+    box-sizing: border-box;
 }
 
 .my_photo{
@@ -185,6 +184,8 @@ nav li{
     border-radius: 50%;
     border: none;
     display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 
