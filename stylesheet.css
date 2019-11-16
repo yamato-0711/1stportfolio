@@ -311,45 +311,42 @@ footer{
     
     }
     
-    .pagetop a {
+.pagetop a {
     
         display: block;
     
-        background-color: #ccc;
-    
         text-align: center;
     
-        color: #222;
+        color: rgb(0, 0, 0);
     
-        font-size: 12px;
+        font-size: 50px;
     
         text-decoration: none;
     
-        padding: 5px 10px;
+        padding: 5px 20px;
     
         filter:alpha(opacity=50);
     
         -moz-opacity: 0.5;
     
         opacity: 0.5;
+
     
-    }
+}
     
     .pagetop a:hover {
     
         display: block;
-    
-        background-color: #b2d1fb;
-    
+
         text-align: center;
     
-        color: #fff;
+        color: rgba(10, 10, 10, 0.925);
     
-        font-size: 12px;
+        font-size:50px;
     
         text-decoration: none;
     
-        padding:5px 10px;
+        padding:5px 20px;
     
         filter:alpha(opacity=50);
     
@@ -359,7 +356,8 @@ footer{
     
     }
     
-
+    
+    
 
 
 
