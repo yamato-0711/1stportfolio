@@ -223,6 +223,10 @@ nav li{
     flex-direction: column;
 }
 
+.circle p{
+	margin: 5px;
+}
+
 table{
     border-spacing: 10px;
     margin: auto;
