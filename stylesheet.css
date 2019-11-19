@@ -1,8 +1,10 @@
+@charset "UTF-8";
+​
 *{
     margin: 0;
     padding: 0;
 }
-
+​
 .start {
 	background: #FFF;
 	position: fixed;
@@ -23,30 +25,31 @@
     font-family: 'Caveat', cursive;
     color: black;
     font-size: 70px;
+    margin: 0 auto;
 }
-
+​
 .fadein1{
     opacity : 0;
     transform : translate(0, 200px);
     transition : all 1600ms;
 }
-
+​
             /* .fadein2{
                 opacity : 0.1;
                 transform : translate(-200px, 200px);
                 transition : all 500ms;
             } */
-
+​
 .fadein1.scrollin {
     opacity : 1;
     transform : translate(0, 0);
 }
-
+​
 /* .fadein2.scrollin {
     opacity : 1;
     transform : translate(0, 0);
 } */
-
+​
 header nav{
     width: 100%;
     height: 80px;
@@ -59,41 +62,41 @@ header nav{
     position: fixed;
     z-index: 10;
 }
-
+​
 nav a,li{
     display: inline;
     text-decoration: none;
     color: rgba(22, 3, 3, 0.644);
 }
-
+​
 nav > a{
     font-size: 35px;
     margin: 0 50px;
     color: rgba(22, 3, 3, 0.644);
 }
-
+​
 nav li{
     margin-right: 40px;
     font-size: 18px;
     color: rgba(22, 3, 3, 0.644);
 }
-
+​
 .article-header-container{
     width: 100%;
-    height: 600px;
+    height: 100vh;
     /* background-image: url(./images/map.jpeg); */
     background: url(./map.jpeg) center center;
     background-size: cover;
     display: flex;
 }
-
-
+​
+​
 /* .container {
     height: 100vh;
     background: url(./map.jpeg) center center;
     background-size: cover;
 } */
-
+​
 .header{
     margin: auto;
     display: flex;
@@ -102,15 +105,15 @@ nav li{
     font-family: 'Caveat', cursive;
     color: beige;
 }
-
+​
 .header p{
     font-size: 45px;
 }
-
+​
 .header h1{
     font-size: 20px;
 }
-
+​
 #profile{
     width: 100%;
     height: 560px;
@@ -120,7 +123,7 @@ nav li{
     background-size: cover;
 	z-index:0;
 }
-
+​
 .text-center{
     margin: 80px auto;
     display: flex;
@@ -132,14 +135,14 @@ nav li{
     border-radius: 3%;
     padding: 5px;
 }
-
+​
 .section-header h2{
     font-size: 40px;
     display: inline-block;
     position: relative;
     border-bottom: 1px solid black;
 }
-
+​
 .section h2:before {
     content: '';
     position: absolute;
@@ -150,16 +153,16 @@ nav li{
     transform: translate(-50%); /*位置調整*/
     background-color: #666666; /*下線の色*/
   }
-
+​
 .section-header h2:first-letter{
     color: #336600;
 }
-
+​
 .section-header p{
     font-size: 20px;
 }
-
-
+​
+​
 .profile-container{
     display: flex;
     flex-direction: row;
@@ -167,8 +170,8 @@ nav li{
     margin-top: 20px;
     
 }
-
-
+​
+​
 .profile-container img{
     width: 250px;
     height: 250px;
@@ -177,7 +180,7 @@ nav li{
     border: solid 0px rgba(114, 6, 105, 0.856);
     box-sizing: border-box;
 }
-
+​
 .my_photo{
     width: 300px;
     height: 300px;
@@ -187,15 +190,15 @@ nav li{
     text-align: center;
     justify-content: center;
 }
-
-
-
+​
+​
+​
 .profile-container div{
     width: 300px;
     height: 300px;
 }
-
-
+​
+​
 #selfpr{
     width: 100%;
     height: 700px;
@@ -204,12 +207,12 @@ nav li{
     background-size: cover;
 	z-index:0;
 }
-
+​
 .selfpr-container{
    display: flex;
    flex-direction: row;
 }
-
+​
 .selfpr-container div{
     /* border: 1px solid white; */
     width: 300px;
@@ -218,7 +221,7 @@ nav li{
     padding: 20px 20px;
     background-color: rgba(192, 181, 181, 0.6)
 }
-
+​
 .circle{
     border-radius: 50%;
     display: flex;
@@ -226,6 +229,9 @@ nav li{
     text-align: center;
     flex-direction: column;
     border: solid 2px rgba(114, 6, 105, 0.856);
+}
+.circle:hover{
+    opacity: 0.8;
 }
 .circle h3{
     font-size: 20px;
@@ -237,7 +243,7 @@ nav li{
     margin: 5px;
     font-size: 10px;
 }
-
+​
 table{
     border-spacing: 10px;
     margin: auto;
@@ -245,7 +251,7 @@ table{
     font-size: 25px;
     font-family: 'Amatic SC', cursive;
 }
-
+​
 #vision{
     width: 100%;
     height: 700px;
@@ -257,16 +263,16 @@ table{
     background-size: cover;
 	z-index:0;
 }
-
+​
 .vision-content h3{
     font-size: 25px;
     color: rgb(1, 95, 153);
 }
-
+​
 .vision-content{
     color: white;
 }
-
+​
 .message{
     position: absolute;
     font-size: 60px;
@@ -279,21 +285,21 @@ table{
     0px 1px 0 #FFF,  0-1px 0 #FFF,
     -1px 0 0 #FFF, 1px 0 0 #FFF;
 }
-
+​
 footer{
     width: 100%;
     height: 200px;
     display: flex;
     background-color:  beige;
 }
-
+​
 .footer-content{
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: auto;
 }
-
+​
 .footer-content a{
     font-size: 40px;
     color: rgb(0, 0, 0);
@@ -305,92 +311,95 @@ footer{
 /*pagetop用*/
 .pagetop {
     
-        display: none;
-    
-        position: fixed;
-        bottom: 30px;
-    
-        right: 15px;
-    
-    }
+    display: none;
+​
+    position: fixed;
+    bottom: 30px;
+​
+    right: 15px;
+​
+}
     
 .pagetop a {
     
-        display: block;
-    
-        text-align: center;
-    
-        color: rgb(0, 0, 0);
-    
-        font-size: 50px;
-    
-        text-decoration: none;
-    
-        padding: 5px 20px;
-    
-        filter:alpha(opacity=50);
-    
-        -moz-opacity: 0.5;
-    
-        opacity: 0.5;
-
+    display: block;
+​
+    text-align: center;
+​
+    color: rgb(0, 0, 0);
+​
+    font-size: 50px;
+​
+    text-decoration: none;
+​
+    padding: 5px 20px;
+​
+    filter:alpha(opacity=50);
+​
+    -moz-opacity: 0.5;
+​
+    opacity: 0.5;
+​
     
 }
     
-    .pagetop a:hover {
-    
-        display: block;
-
-        text-align: center;
-    
-        color: rgba(10, 10, 10, 0.925);
-    
-        font-size:50px;
-    
-        text-decoration: none;
-    
-        padding:5px 20px;
-    
-        filter:alpha(opacity=50);
-    
-        -moz-opacity: 0.5;
-    
-        opacity: 0.5;
-    
+.pagetop a:hover {
+​
+    display: block;
+​
+    text-align: center;
+​
+    color: rgba(10, 10, 10, 0.925);
+​
+    font-size:50px;
+​
+    text-decoration: none;
+​
+    padding:5px 20px;
+​
+    filter:alpha(opacity=50);
+​
+    -moz-opacity: 0.5;
+​
+    opacity: 0.5;
+​
+}
+​
+​
+​
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    .selfpr-container{
+        flex-direction: column; 
     }
+    #selfpr{
+        height: 100%; 
+    }
+}
     
-@media screen and (max-width: 1024px){
-	    .profile-container{
-		    flex-dirextion: column;
-	    }
-	    #profile{
-		    height: 100%;
-	    }
-}
+      
 @media screen and (max-width: 765px){
-	.profile-container{
-		flex-direction: 100%;
-	}
-	#profile{
-		height: 100%;
-	}
-	.my_photo img{
-		margin: 0;
-	}
-	#vision{
-		height: 100%;
-	}
-	.vision-content{
-		width: 80%;
-		margin: auto;
-	}
-	.pagetop{
-		reight-10px;
-	}
-	.message p{
-		font-size: 50px;
-	}
+    .profile-container{
+        flex-direction: column;
+    }
+    #profile{
+        height: 100%;
+    }
+    .my_photo img{
+        margin: 0;
+    }
+    #vision{
+        height: 100%;  
+    }
+    .vision-content{
+        width: 80%;
+        margin: auto;
+    }
+    .pagetop{
+        right: 10px;
+    }
+    .message p{
+        font-size: 50px;
+    }
+​
 }
-
-
-
+    
