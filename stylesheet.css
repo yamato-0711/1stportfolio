@@ -367,7 +367,7 @@ footer{
 ​
 ​
 ​
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .selfpr-container{
         flex-direction: column; 
     }
@@ -403,3 +403,4 @@ footer{
 ​
 }
     
+ */
