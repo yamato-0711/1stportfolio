@@ -367,7 +367,7 @@ footer{
 ​
 ​
 ​
-@media screen and (max-width: 1024px) and (orientation: portrait) {
+@media (max-width: 1024px) {
     .selfpr-container{
         flex-direction: column; 
     }
@@ -377,7 +377,7 @@ footer{
 }
     
       
-@media screen and (max-width: 765px){
+@media (max-width: 765px){
     .profile-container{
         flex-direction: column;
     }
