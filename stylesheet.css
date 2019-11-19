@@ -359,8 +359,38 @@ footer{
     
     }
     
-    
-    
+@media screen and (max-width: 1024px){
+	    .profile-container{
+		    flex-dirextion: column;
+	    }
+	    #profile{
+		    height: 100%;
+	    }
+}
+@media screen and (max-width: 765px){
+	.profile-container{
+		flex-direction: 100%;
+	}
+	#profile{
+		height: 100%;
+	}
+	.my_photo img{
+		margin: 0;
+	}
+	#vision{
+		height: 100%;
+	}
+	.vision-content{
+		width: 80%;
+		margin: auto;
+	}
+	.pagetop{
+		reight-10px;
+	}
+	.message p{
+		font-size: 50px;
+	}
+}
 
 
 
